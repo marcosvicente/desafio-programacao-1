@@ -1,0 +1,20 @@
+#default site in i18n in language portuguese
+#
+#
+pt-BR:
+  activemodel:
+    product:
+      item_price: "bbbbbb"
+  listing_products: "Lista de produtos"
+  purchaser_name: "Nome do comprador "
+  item_description: "Descrição do item"
+  item_price: "Preço"
+  purchase_count: "Quantidade de Compradores"
+  merchant_address: "Endereço do Comerciante"
+  merchant_name: "Nome do Comerciante"
+
+  #Button new url - http://localhost:3000//products/
+
+  new_url: "Novo Produto"
+
+
