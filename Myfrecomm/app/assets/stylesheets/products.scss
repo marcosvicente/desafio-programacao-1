@@ -28,7 +28,7 @@ table{
         color: #fff;
         a{
           text-decoration:none;
-            color: #000;
+            color: #fff;
           }
       }
 
@@ -41,7 +41,7 @@ table{
 
   }
 }
-#new-button{
+#new-button {
   margin-top:4em;
   text-align:center;
 
@@ -55,21 +55,72 @@ table{
 }
 
 
-
-/* new product http://localhost:3000/pt-BR/products/new */
+/* form */
+form{
+  margin-left:20em ;
+  margin-right:20em;
+}
 .field{
-  display:block;
-  margin-left:10em;
-  margin-right:10em;
-  margin-top: 1em;
+  margin-top: 1em ;
+  margin-left:2em;
+  margin-right:2em;
   input[type="text"]{
     width:20em;
     border:1px solid #d1d2d3;
     padding: 0.5em;
+
     &:focus{
       border:1px solid #a29cff;
     }
+  }
 
+}
+
+.actions{
+  margin-top:2em;
+  margin-left:2em;
+  input[type="submit"]{
+    border:none;
+    padding: 2em;
+    color:#fff;
+    background:#00000d;
+    border-radius:0.5em;
   }
 }
 
+
+
+/* new product http://localhost:3000/pt-BR/products/new */
+#back-button{
+  margin-top:1em;
+  margin-left:10em;
+  font-size:2em;
+  a{
+    text-decoration:none;
+    color:#000;
+  }
+}
+
+
+/* show product http://localhost:3000/en/products/<pk> */
+.show-text-product{
+  box-shadow:0 0 5px 0 #d1d1d2;
+  margin-left:1em;
+  padding:1em;
+  p{
+    color:#343434;
+  }
+}
+/* show and edit */
+.show-back-button-product{
+  margin-top:2em;
+  margin-left:1em;
+  a{
+    padding:1em;
+    border-radius:0.5em;
+    background:#00000d;
+    text-decoration:none;
+    color:#fff;
+  }
+
+}

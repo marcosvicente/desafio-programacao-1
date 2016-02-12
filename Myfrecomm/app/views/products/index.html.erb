@@ -1,8 +1,8 @@
 <p id="notice"><%= notice %></p>
 
-<h1><%= t('listing_products') %></h1>
+<h1 class="animated zoomIn"><%= t('listing_products') %></h1>
 
-<table>
+<table class="animated flipInX">
   <thead>
     <tr>
       <th><%= t('purchaser_name') %></th>
@@ -15,7 +15,7 @@
     </tr>
   </thead>
 
-  <tbody>
+  <tbody >
     <% @products.each do |product| %>
       <tr>
         <td><%= product.purchaser_name %></td>
@@ -31,6 +31,6 @@
     <% end %>
   </tbody>
 </table>
-<div id="new-button">
+<div id="new-button" class="animated shake">
   <%= link_to t("new_url"), new_product_path %>
 </div>

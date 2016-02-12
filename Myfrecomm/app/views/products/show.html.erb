@@ -1,5 +1,6 @@
 <p id="notice"><%= notice %></p>
 
+<section class="show-text-product animated fadeInLeft">
 <p>
   <strong>Purchaser name:</strong>
   <%= @product.purchaser_name %>
@@ -30,5 +31,9 @@
   <%= @product.merchant_name %>
 </p>
 
-<%= link_to 'Edit', edit_product_path(@product) %> |
-<%= link_to 'Back', products_path %>
+</section>
+
+<div class="show-back-button-product animated shake">
+  <%= link_to 'Edit', edit_product_path(@product) %> |
+  <%= link_to 'Back', products_path %>
+</div>

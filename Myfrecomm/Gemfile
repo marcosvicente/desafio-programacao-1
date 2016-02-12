@@ -10,6 +10,11 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'normalize-rails'
+
+#animate rails - https://github.com/camelmasa/animate-rails
+#gem for make animated dinamic
+gem "animate-rails"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
